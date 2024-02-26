@@ -1,0 +1,54 @@
+/* FirstForm.css */
+
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input[type="text"],
+.form-group input[type="date"],
+.form-group input[type="number"],
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  margin: 0 0 20px 0;
+  border: 1px solid #060707;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-group input[type="radio"] {
+  margin-right: 0.5rem;
+}
+
+.form-group button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.form-group button:hover {
+  background-color: #45a049;
+}
+
+body {
+  background-color:white;
+}
